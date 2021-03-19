@@ -1,0 +1,20 @@
+.headerIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.headerIcon:hover{
+    color: black;
+}
+.headerIcon>h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headerIcon__avatar{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}

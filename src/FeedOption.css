@@ -1,0 +1,16 @@
+.feedOption{
+    display: flex;
+    align-items: center;
+    margin-right:15px;
+}
+.feedOption>h4{
+    font-size: 14px;
+    color: gray;
+    margin-left: 3px;
+}
+.feedOption:hover{
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
